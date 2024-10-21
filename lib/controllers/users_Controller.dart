@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../models/user.dart';
 
-import '../providers/usersP.dart';
+import '../providers/users_Provider.dart';
 
-class UsersC extends GetxController {
+class UsersController extends GetxController {
   var users = List<User>.empty().obs;
 
   void snackBarError(String msg) {
